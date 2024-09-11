@@ -1,0 +1,11 @@
+npm install
+
+npm start
+
+
+admin pass
+
+username - admin@gmail.com
+pass - 1234
+
+

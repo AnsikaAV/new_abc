@@ -1,0 +1,33 @@
+.doc-img-fluid img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    object-position: top;
+    border: 8px solid #e0e0e0;
+}
+.doc-info a{
+    color: #1977cc !important;
+}
+
+@media (max-width: 768px) {
+    .doc-img-fluid img {
+        height: 50px;
+        width: 50px;
+        border: 2px solid #e0e0e0;
+    }
+
+    .doc-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .doc-img-fluid {
+        margin-bottom: 1rem;
+    }
+    
+    .doc-info {
+        text-align: center;
+    }
+}
